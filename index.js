@@ -1,9 +1,6 @@
 import MultiOutputClassifierModel from "./lib/model.js"
 
-
-
-
-const classifierModel = new MultiOutputClassifierModel('./data/DisasterResponse_1.db');
+const classifierModel = new MultiOutputClassifierModel('./data/dataset.db');
 
 function app(result) {
     const { X, Y, categoryNames } = this.loadData(result);

@@ -3,13 +3,12 @@
 This project is used as the tensorflow backend to generate the `ml model for classification`.
 Plan is to use this model with the ms/tfjs `messages_ms_forked`, which is the standard project for creating microservices.
 
+> **note:** please contact [mimik](http://mimik.com/) for more info
+
 ## Build/Run
 
 Dependencies are listed in `package.json`, simply run `npm install` to install the dependencies. Please note that
 the `node_modules` folder, and the `package-lock.json` file, are both added to the `.gitignore` config.
-
-Run `npm install` to install/build the dependencies, and run `node index.js` to print output from the model.
-The model is currently under dev/testing-phase.
 
 ## Commands
 
