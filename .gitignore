@@ -128,3 +128,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+data/
+tmp/
+package-lock.json
+tfjs-tfjs-v2.3.0/
+yarn.lock

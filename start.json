@@ -1,0 +1,10 @@
+{
+    "name": "{{containerName}}",
+    "image": "{{imageName}}",
+    "env": {
+      "MCM.BASE_API_PATH": "{{YOUR_PATH}}",
+      "MCM.WEBSOCKET_SUPPORT": "true",
+      "<add your environment variable name>": "{{add your environment variable}}"
+    }
+  }
+  
